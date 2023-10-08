@@ -1,0 +1,50 @@
+footer{
+    padding: 2px;
+    margin-top: 20px;
+    height: fit-content;
+    display: flex;
+    
+    gap: 50%;
+    background-color: var(--color-primary);
+    color: var( --color-bg-varient);
+}
+
+.socials{
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;  
+    flex-direction: row;
+    gap: 44%;
+    word-wrap: none;
+  
+}
+.social__icons a{
+    font-size: 20px;
+    
+    color: blue;
+}
+
+@media screen and (max-width : 1024px) {
+
+  footer{
+    gap: 30%;
+  }
+
+  }
+  
+  
+  
+      /* **************Media Query************* */
+  
+      @media screen and (max-width : 720px) {
+      .socials{
+        flex-wrap: wrap;
+      }
+        footer{
+            gap: 5%;
+          }
+         .socials{
+            gap: 20%;
+         }
+      }
