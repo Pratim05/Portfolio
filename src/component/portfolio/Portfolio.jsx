@@ -4,6 +4,7 @@ import './Porfolio.css'
 import Img1 from '../../assets/Project1.png'
 import Img2 from '../../assets/Project2.png'
 import Img3 from '../../assets/Project3.png'
+import Img4 from '../../assets/Project4.png'
 
 const Portfolio = () => {
   return (
@@ -22,6 +23,20 @@ const Portfolio = () => {
           <a href="https://online-exam-system-bl45.onrender.com/" className="btn btn-primary" target='_blank'>Live View</a>
           </div>
         </article>
+ 
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+          <img src={Img4} alt="FRF" />
+          </div>
+          <h3>Food Recipe Finder</h3>
+          <div className="description">I spearheaded the development of a dynamic MERN stack-based Food Recipe App. This project redefines the culinary experience by seamlessly integrating user-friendly recipe search, dynamic category management, and secure authentication.  </div>
+          <div className="portfolio__item-cta">
+          <a href="https://github.com/Pratim05/food-recipe-finder" className="btn" target='_blank'>Github</a>
+          <a href="https://food-recipe-finder.onrender.com/" className="btn btn-primary" target='_blank'>Live View</a>
+          </div>
+        </article>
+
+
         <article className="portfolio__item">
           <div className="portfolio__item-image">
           <img src={Img2} alt="TTT" />
@@ -35,6 +50,8 @@ const Portfolio = () => {
           <a href="https://pratim-tictactoe.netlify.app/" className="btn btn-primary" target='_blank'>Play Now</a>
           </div>
         </article>
+
+
         <article className="portfolio__item">
           <div className="portfolio__item-image">
           <img src={Img3} alt="TL" />
@@ -48,6 +65,8 @@ const Portfolio = () => {
           <a href="https://pratim05.github.io/todolist.github.io/" className="btn btn-primary" target='_blank'>Live View</a>
           </div>
         </article>
+
+
       </div>
     </section>
   )
