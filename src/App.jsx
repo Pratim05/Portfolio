@@ -8,6 +8,7 @@ import Services from './component/services/Services'
 import Portfolio from './component/portfolio/Portfolio'
 import Contact from './component/contact/Contact'
 import Footer from './component/footer/Footer'
+import Chatbot from './component/ChatBot/Chatbot'
 
 const App = () => {
   return (
@@ -40,6 +41,7 @@ const App = () => {
   }}
 
 />
+<Chatbot/>
 
     
     

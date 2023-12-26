@@ -17,7 +17,7 @@ const Portfolio = () => {
           <img src={Img1} alt="OES" />
           </div>
           <h3>Online Examination System</h3>
-          <div className="description">Developed a robust Online Examination System using MERN stack.Featuring user authentication, instant result, proper security and warnings , attractive User-Interfce for both Student and Teacher </div>
+          <div className="description">Developed a robust Online Examination System using MERN stack. Featuring user authentication, instant result, proper security and warnings , attractive User-Interface for both Student and Teacher </div>
           <div className="portfolio__item-cta">
           <a href="https://github.com/Pratim05/onlineexamsystem.github.io" className="btn" target='_blank'>Github</a>
           <a href="https://online-exam-system-bl45.onrender.com/" className="btn btn-primary" target='_blank'>Live View</a>
@@ -43,7 +43,7 @@ const Portfolio = () => {
           </div>
           <h3>Tic Tac Toe</h3>
           <div className="description">
-            Created a classic Tic Tac Toe game using JavaScript, providing an interactive and enjoiable gaming experience. Two players can take their turns, and game check for wins and ties, Check it Out for Some Nostalgic fun.
+            Created a classic Tic Tac Toe game using JavaScript, providing an interactive and enjoiable gaming experience. one player can take his turn, and game check for wins and ties, Check it Out for Some Nostalgic fun.
           </div>
           <div className="portfolio__item-cta">
           <a href="https://github.com/Pratim05/TicTacToe" className="btn" target='_blank'>Github</a>

@@ -31,7 +31,7 @@ const About = () => {
             </article>
           </div>
 
-          <p>Hello, I'm <b>Pratim Bera</b>, I have a great passion for web development. My goal is to become a skilled Frontent Web Developer, and I'm excited to embark on this journey for crafting visually appealing and user-friendley websites with responsive design. With a commitment to continuous learning and creative approach to design. I am ready to bring your web projects to life.</p>
+          <p>Hello, I'm <b>Pratim Bera</b>, I have a great passion for web development. My goal is to become a skilled Front-end Web Developer, and I'm excited to embark on this journey for crafting visually appealing and user-friendly websites with responsive design. With a commitment to continuous learning and creative approach to design. I am ready to bring your web projects to life.</p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
